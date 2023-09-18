@@ -53,10 +53,10 @@ packages:
     dependency: transitive
     description:
       name: decimal
-      sha256: "7e6735d63c3fdeff3d20b60fde7fd974145110fef414256dd53d5cfc4c1fa1b4"
+      sha256: "24a261d5d5c87e86c7651c417a5dbdf8bcd7080dd592533910e8d0505a279f21"
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.0"
+    version: "2.3.3"
   fake_async:
     dependency: transitive
     description:
@@ -157,7 +157,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "1.0.1"
   path:
     dependency: transitive
     description:
@@ -194,10 +194,10 @@ packages:
     dependency: transitive
     description:
       name: rational
-      sha256: "49ba0eb1a7b0d39358998cbbd4d4a384382a83ac02f433aefc567853c84ed975"
+      sha256: ba58e9e18df9abde280e8b10051e4bce85091e41e8e7e411b6cde2e738d357cf
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.1"
+    version: "2.2.2"
   sky_engine:
     dependency: transitive
     description: flutter
