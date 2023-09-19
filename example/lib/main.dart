@@ -47,11 +47,11 @@ class _ScreenState extends State<Screen> {
 
     Future.delayed(const Duration(milliseconds: 0), () async {
       try {
-        _apps = await NsUpi.getInstalledUpiApplications(
+        _apps = await NsUpi.getInstalledUpiApps(
             statusType: UpiApplicationDiscoveryAppStatusType.all);
         setState(() {});
       } catch (e, s) {
-        debugPrint('getInstalledUpiApplications error: $e, stack: $s');
+        debugPrint('getInstalledUpiApps error: $e, stack: $s');
       }
     });
   }

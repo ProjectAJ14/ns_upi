@@ -227,7 +227,7 @@ int _castToInt(dynamic val) {
 
 /// Represents the type of payments in the apps that user wants to access.
 ///
-/// Passed as [paymentType] parameter of [UpiPay.getInstalledUpiApplications]
+/// Passed as [paymentType] parameter of [UpiPay.getInstalledUpiApps]
 /// API.
 enum UpiApplicationDiscoveryAppPaymentType {
   /// Individual-to-individual payment type. If this type is passed, then
@@ -246,7 +246,7 @@ enum UpiApplicationDiscoveryAppPaymentType {
 
 /// Represents the UPI payment working status of apps that user wants to access.
 ///
-/// Passed as [statusType] parameter of [UpiPay.getInstalledUpiApplications]
+/// Passed as [statusType] parameter of [UpiPay.getInstalledUpiApps]
 /// API.
 enum UpiApplicationDiscoveryAppStatusType {
   /// Indicates that user wants UPI apps with any working status (they must be

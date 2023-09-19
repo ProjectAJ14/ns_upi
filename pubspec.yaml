@@ -1,6 +1,6 @@
 name: ns_upi
 description: A flutter plugin to launch UPI payment applications on Android and iOS towards making UPI payments.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/ProjectAJ14/ns_upi.git
 
 environment:

@@ -9,7 +9,7 @@ Add this package to your flutter project's `pubspec.yaml` as a dependency as fol
 ```yaml
 dependencies:
   ...
-  ns_upi: ^1.0.0
+  ns_upi: ^1.0.2
 ```
 
 Import the package as follows:
@@ -86,3 +86,30 @@ Future<void> upiTransaction(ApplicationMeta appMeta) {
   debugPrint(response.status);
 }
 ```
+
+
+Note: This package is inspired from [upi_pay](https://pub.dev/packages/upi_pay) package. 
+As the package was not maintained for a long time, I decided to create a new package with some 
+additional features.
+
+## Contributing
+
+There are couple of ways in which you can contribute.
+- Propose any feature, enhancement
+- Report a bug
+- Fix a bug
+- Participate in a discussion and help in decision making
+- Write and improve some **documentation**. Documentation is super critical and its importance
+  cannot be overstated!
+- Send in a Pull Request :-)
+
+
+
+<br>
+<div align="center" >
+  <p>Thanks to all contributors of this package</p>
+  <a href="https://github.com/ProjectAJ14/contact_permission/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=ProjectAJ14/contact_permission" />
+  </a>
+</div>
+<br>

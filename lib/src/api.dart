@@ -13,7 +13,7 @@ import 'package:ns_upi/src/transaction_details.dart';
 
 /// Helps with getting installed UPI apps and making payments using them.
 ///
-/// The [getInstalledUpiApplications] API helps getting installed applications.
+/// The [getInstalledUpiApps] API helps getting installed applications.
 ///
 /// The [initiateTransaction] API helps with making a transaction using a chosen
 /// UPI payment app.
@@ -92,7 +92,7 @@ class NsUpi {
   ///
   /// [paymentType] must be [UpiApplicationDiscoveryAppPaymentType.nonMerchant]
   /// for now. Setting it to any other value will lead to [UnsupportedError].
-  static Future<List<ApplicationMeta>> getInstalledUpiApplications({
+  static Future<List<ApplicationMeta>> getInstalledUpiApps({
     UpiApplicationDiscoveryAppPaymentType paymentType =
         UpiApplicationDiscoveryAppPaymentType.nonMerchant,
     UpiApplicationDiscoveryAppStatusType statusType =
