@@ -76,8 +76,7 @@ class UpiTransactionResponse {
           } else if (value.toLowerCase().contains('submitted')) {
             _status = UpiTransactionStatus.submitted;
           } else if (value.toLowerCase() == 's') {
-            _status =
-                UpiTransactionStatus.success; // YuvaPay returns status=S
+            _status = UpiTransactionStatus.success; // YuvaPay returns status=S
           } else {
             throw UnsupportedError('Unsupported UPI Transaction Status');
           }
